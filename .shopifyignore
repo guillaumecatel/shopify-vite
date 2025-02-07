@@ -3,7 +3,6 @@ node_modules/
 src/
 public/
 .gitignore
-index.html
 package.json
 pnpm-lock.yaml
 tsconfig.json
