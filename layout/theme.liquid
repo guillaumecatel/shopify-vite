@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Titre de la page</title>
+    {{ content_for_header }}
+
+    {% liquid
+      render 'vite-tag' with 'main.ts'
+      render 'vite-tag' with 'main.css', preload_stylesheet: true
+    %}
+  </head>
+  <body class="bg-avocado-100">
+  {{ content_for_layout }}
+  </body>
+</html>

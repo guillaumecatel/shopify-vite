@@ -1,0 +1,13 @@
+{
+  "frontend/entrypoints/main.css": {
+    "file": "main-CByYUXe1.css",
+    "src": "frontend/entrypoints/main.css",
+    "isEntry": true
+  },
+  "frontend/entrypoints/main.ts": {
+    "file": "main-O62UIZbF.js",
+    "name": "main",
+    "src": "frontend/entrypoints/main.ts",
+    "isEntry": true
+  }
+}
